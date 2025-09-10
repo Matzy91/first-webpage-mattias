@@ -1,5 +1,75 @@
 <!DOCTYPE html>
-<html>
-  <head></head>
-  <body></body>
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first webpage</title>
+    <style>
+      body {
+        background-color: #e5dbdb;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+      }
+      #div-main-container {
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+      }
+      #nav-container {
+        margin-bottom: 20px;
+      }
+      .inner-container {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+      }
+      .inner-container p {
+        width: 250px;
+        padding-right: 50px;
+      }
+      .inner-container img {
+        width: 100px;
+        height: 100px;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>My first webpage</h1>
+      </header>
+
+      <div id="div-main-container">
+        <nav id="nav-container">
+          <button>Home</button>
+          <button>Contact</button>
+        </nav>
+
+        <div class="inner-container">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat est
+            incidunt nihil, tenetur ratione, eius iste perspiciatis repellendus,
+            dignissimos laborum voluptatem libero laboriosam temporibus. Et
+            cupiditate repellat corporis laudantium dolorum!
+          </p>
+          <aside>
+            <img
+              src="466158220_9076772679007814_4696304985412505656_n.jpg"
+              alt="bild på mig"
+            />
+          </aside>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
